@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <h2 class="preloader-text">Bienvenidos</h2>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio" class="nav-link active"><i class="fas fa-home"></i> <span class="nav-text">Inicio</span></a></li>
+            <li><a href="#acerca" class="nav-link"><i class="fas fa-user"></i> <span class="nav-text">Acerca</span></a></li>
+            <li><a href="#servicios" class="nav-link"><i class="fas fa-wrench"></i> <span class="nav-text">Servicios</span></a></li>
+            <li class="theme-divider"></li>
+            <li><button id="theme-toggle" class="theme-btn" aria-label="Cambiar tema"><i class="fas fa-moon"></i></button></li>
+        </ul>
+    </nav>
+
+    <section id="inicio" class="hero section-animate">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Hola, soy <span class="text-gray">Kevin</span></h1>
+                
+                <div class="typewriter-box">
+                    <h2><span class="auto-type" data-text="Desarrollador Full-Stack" data-speed="70" data-delay="300"></span><span class="cursor">|</span></h2>
+                </div>
+                
+                <p class="hero-description">
+                    <span class="auto-type" data-text="Estudiante del 7to ciclo de Ing. de Sistemas, apasionado por la programación y la lógica estructural. Me dedico a crear soluciones de extremo a extremo: desde el diseño y gestión de bases de datos y la lógica del servidor (backend), hasta la implementación de interfaces web limpias." data-speed="20" data-delay="2200"></span><span class="cursor">|</span>
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kevindiosconmigo890@gmail.com" 
+                        target="_blank" 
+                        class="btn btn-outline">
+                        → Contratar
+                    </a>
+                    <a href="CV.pdf" class="btn btn-solid" download="CV_Kevin_Joaquin.pdf">
+                        <i class="fas fa-download"></i> Descargar CV
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/kevin-32bits" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kevin-joaquin-esteban-980490411" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://wa.me/51907549495" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div> <div class="hero-image-wrapper">
+                <div class="image-card">
+                    <img src="img/cv.jpeg" alt="Kevin Perfil">
+                </div>
+            </div> </div> </section>
+
+    <section id="acerca" class="about bg-white section-animate">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="image-card">
+                        <img src="img/trabajando.png" alt="Kevin Trabajando">
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <h2 class="section-title">Acerca de Mí</h2>
+                    <h3 class="about-name">Kevin</h3>
+                    
+                    <p class="about-text">
+                        <span class="auto-type" data-text="Estudiante de Ingeniería en la Universidad Privada del Norte (UPN). Enfocado en el desarrollo web full-stack y la arquitectura de sistemas. Me especializo en transformar requerimientos de negocio en plataformas digitales eficientes, escalables y seguras." data-speed="25" data-delay="300"></span><span class="cursor">|</span>
+                    </p>
+                    
+                    <div class="about-info-blocks">
+                        <div class="info-block">
+                            <h4>| Educación</h4>
+                            <p class="highlight-text">Universidad Privada del Norte (UPN)</p>
+                            <p class="sub-text">Ingeniería de Sistemas Computacionales</p>
+                            <p class="date-text">Actualmente estudiando</p>
+                        </div>
+
+                        <div class="info-block">
+                            <h4>| Habilidades Técnicas</h4>
+                            <div class="skills-flex">
+                                <span>Angular</span>
+                                <span>C# / .NET</span>
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>TypeScript</span>
+                                <span>SQL Server</span>
+                                <span>Git / GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="services bg-white section-animate">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Mis Servicios</h2>
+                <p class="section-subtitle"><span class="auto-type" data-text="Lo que puedo hacer por tu negocio" data-speed="40" data-delay="300"></span><span class="cursor">|</span></p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i class="fa-solid fa-display"></i>
+                    </div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Creación de aplicaciones web modernas con interfaces limpias y responsivas con las últimas tecnologías frontend.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Backend & Lógica</h3>
+                    <p>Desarrollo de sistemas inteligentes que gestionan datos y automatizan procesos, eliminando errores operativos y potenciando tu productividad.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Desarrollador Full-Stack</h3>
+                    <p>Capaz de sincronizar tecnologías frontend y backend para entregar aplicaciones modernas, eficientes y alineadas a estándares de la industria.</p>
+                </div>
+            </div>
+
+            <div class="hire-me-center">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kevindiosconmigo890@gmail.com" 
+                    target="_blank" 
+                    class="btn btn-outline">
+                    → Contratar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-dark">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Kevin</h3>
+                <p>Desarrollador Web y estudiante de Ingeniería Sistemas.</p>
+                <p>Creando soluciones innovadoras con código limpio.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>ENLACES RÁPIDOS</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <h4>REDES</h4>
+                <div class="social-icons-footer">
+                    <a href="https://github.com/kevin-32bits" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kevin-joaquin-esteban-980490411" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://wa.me/51907549495" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Kevin. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
